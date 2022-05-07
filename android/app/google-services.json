@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "312500870468",
+    "project_id": "login-test-91369",
+    "storage_bucket": "login-test-91369.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312500870468:android:61025acac95a501e820b11",
+        "android_client_info": {
+          "package_name": "com.arj.logt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312500870468-4qo92j6c5ki4u5rptkao4e3lror6dfvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arj.logt",
+            "certificate_hash": "faa86c8fff6f1b39151a37cb5f6c00e2a84b6ad0"
+          }
+        },
+        {
+          "client_id": "312500870468-106eubpqdmcdiedun40letn2bs283gbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-9QhORTioUI36TOog_R0rHe1TP6Gbpbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312500870468-106eubpqdmcdiedun40letn2bs283gbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
