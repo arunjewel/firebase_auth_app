@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     //get user location
-    getLocation();
+   // getLocation();
     super.initState();
   }
 
@@ -49,15 +49,15 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: kMainThemeColor,
         title: const Text("Home"),
       ),
-      body: SafeArea(
-        child: GoogleMap(
-          mapType: MapType.hybrid,
-          initialCameraPosition: kLocation,
-          onMapCreated: (GoogleMapController controller) {
-            _controller.complete(controller);
-          },
-        ),
-      ),
+      // body: SafeArea(
+      //   child: GoogleMap(
+      //     mapType: MapType.hybrid,
+      //     initialCameraPosition: kLocation,
+      //     onMapCreated: (GoogleMapController controller) {
+      //       _controller.complete(controller);
+      //     },
+      //   ),
+      // ),
       floatingActionButton: FloatingActionButton(
           backgroundColor: kMainThemeColor,
           onPressed: () {
