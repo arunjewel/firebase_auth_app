@@ -15,7 +15,3 @@ class ProfileInitial extends ProfileState {
   final UserModel userModel;
   const ProfileInitial(this.userModel);
 }
-class UpdateProfile extends ProfileState {
-  final String userName;
-  const UpdateProfile(this.userName);
-}

@@ -32,6 +32,9 @@ dependencies:
   get_it: ^7.2.0
 #local data store
   shared_preferences: ^2.0.13
+#location
+  google_maps_flutter: ^2.1.4
+  geolocator: ^8.2.1
 
 
 dev_dependencies:

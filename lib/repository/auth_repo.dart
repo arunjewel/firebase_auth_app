@@ -75,14 +75,13 @@ class AuthRepo implements AuthService {
   }
 
   @override
-  Future<bool> checkAuthStatus() async{
+  Future<bool> checkAuthStatus() async {
     final prefs = await SharedPreferences.getInstance();
 
     final String email = prefs.getString('email') ?? "";
-    if(email!=""){
+    if (email != "") {
       return true;
-    }
-    else {
+    } else {
       return false;
     }
   }
